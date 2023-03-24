@@ -1,0 +1,22 @@
+{
+  "name": "alpha-actions",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "prestart": "npm run build",
+    "start": "func start",
+    "test": "echo \"No tests yet...\""
+  },
+  "dependencies": {
+    "@sendinblue/client": "^3.3.1",
+    "sib-api-v3-sdk": "^8.5.0",
+    "yup": "^1.0.2"
+  },
+  "devDependencies": {
+    "@azure/functions": "^3.0.0",
+    "@types/node": "^16.x",
+    "typescript": "^4.0.0"
+  }
+}
